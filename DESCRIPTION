@@ -1,7 +1,7 @@
 Package: StataDCTutils
 Type: Package
 Title: Converts Stata dictionary files to formats more meaningful for R users
-Version: 1.0
+Version: 1.1
 Date: 2013-01-16
 Author: Ananda Mahto
 Maintainer: Ananda Mahto <mrdwab@gmail.com>
