@@ -8,8 +8,10 @@ Parse a Stata dictionary file for use in R
 R cannot read Stata's dictionary files directly. This function parses the dictionary file to a \code{data.frame} that can be used to further process the data files and make them usable with R. 
 }
 \usage{
-dct.parser(dct, includes = c("StartPos", "StorageType", 
-"ColName", "ColWidth", "VarLabel"), preview = FALSE)
+dct.parser(dct, 
+           includes = c("StartPos", "StorageType", "ColName", 
+                        "ColWidth", "VarLabel"), 
+           preview = FALSE)
 }
 %- maybe also 'usage' for other objects documented here.
 \arguments{
