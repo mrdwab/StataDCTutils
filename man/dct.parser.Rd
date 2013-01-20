@@ -48,10 +48,13 @@ Ananda Mahto
 ## Read an example dictionary file
 data(sipp84fp)
 ## Write the data to a dictionary file
+currentdir <- getwd()
+setwd(tempdir())
 writeLines(sipp84fp_dct, "sipp84fp.dct")
 dct.parser("sipp84fp.dct", preview = TRUE)
 sipp84_R_dict <- dct.parser("sipp84fp.dct")
 head(sipp84_R_dict)
+setwd(currentdir)
 }
 % Add one or more standard keywords, see file 'KEYWORDS' in the
 % R documentation directory.
