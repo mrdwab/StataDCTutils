@@ -1,0 +1,11 @@
+NEWS
+====
+
+### 2013-01-19
+
+- Renamed csvkitSchema to csvkit.schema
+- Added csvkit.fwf2csv function
+
+### 2013-01-16
+
+- First commit
