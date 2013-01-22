@@ -79,6 +79,4 @@ setwd(currentdir)
 \seealso{
   \code{\link{read.dta}}
 }
-\keyword{~kwd1}
-\keyword{~kwd2}
 

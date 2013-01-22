@@ -27,6 +27,4 @@ MESSAGES(sipp84_R_dict)
 \author{
   Ananda Mahto
 }
-\keyword{~kwd1}
-\keyword{~kwd2}
 

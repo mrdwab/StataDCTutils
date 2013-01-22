@@ -54,7 +54,4 @@ setwd(currentdir)
   csvkit's \code{in2csv} documentation:
   \url{https://csvkit.readthedocs.org/en/latest/scripts/in2csv.html}
 }
-\keyword{csvkit}
-\keyword{fwf}
-\keyword{in2csv}
 

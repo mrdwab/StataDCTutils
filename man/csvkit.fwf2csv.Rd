@@ -82,6 +82,4 @@ setwd(currentdir)
 \seealso{
   \code{\link{csvkit.schema}}
 }
-\keyword{~kwd1}
-\keyword{~kwd2}
 
