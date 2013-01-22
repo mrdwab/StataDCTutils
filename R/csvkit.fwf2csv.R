@@ -29,7 +29,6 @@
 #'@seealso \code{\link{csvkit.schema}}
 #'@references csvkit's \code{in2csv} documentation:
 #'\url{https://csvkit.readthedocs.org/en/latest/scripts/in2csv.html}
-#'@keywords ~kwd1 ~kwd2
 #'@examples
 #'
 #'## Read an example dictionary file

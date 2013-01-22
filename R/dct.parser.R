@@ -39,7 +39,6 @@
 #'\item Initial version of function on Stack Overflow:
 #'\url{http://stackoverflow.com/questions/14224321/reading-dat-and-dct-directly-from-r}
 #'}
-#'@keywords ~kwd1 ~kwd2
 #'@examples
 #'
 #'## Read an example dictionary file

@@ -23,7 +23,6 @@
 #'@author Ananda Mahto
 #'@references csvkit's \code{in2csv} documentation:
 #'\url{https://csvkit.readthedocs.org/en/latest/scripts/in2csv.html}
-#'@keywords csvkit in2csv fwf
 #'@examples
 #'
 #'## Read an example dictionary file

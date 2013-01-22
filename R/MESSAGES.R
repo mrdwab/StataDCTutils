@@ -7,7 +7,6 @@
 #'
 #'@param x The object that contains the message.
 #'@author Ananda Mahto
-#'@keywords ~kwd1 ~kwd2
 #'@examples
 #'
 #'## Read an example dictionary file
