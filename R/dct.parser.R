@@ -16,7 +16,8 @@
 #'\code{\link{dct.parser}}, (2) converting the fixed width data file to a csv
 #'file using \code{csvkit} after generating a csvkit \emph{schema} file using
 #'\code{\link{csvkit.schema}}, (3) reading in the file using your preferred
-#'method (for example, \code{\link[pkg:sqldf]{sqldf}}, \code{\link{read.csv}}, or another
+#'method (for example, \code{\link[data.table:fread]{fread}}, 
+#' \code{\link[sqldf:sqldf]{sqldf}}, \code{\link{read.csv}}, or another
 #'appropriate method), (4) re-assigning some of the metadata extracted from the
 #'dictionary file to your newly imported dataset.
 #'
