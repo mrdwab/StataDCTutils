@@ -10,3 +10,5 @@ Install using:
 library(devtools)
 install_github("StataDCTutils", "mrdwab")
 ```
+
+Documentation: [PDF](https://github.com/mrdwab/StataDCTutils/blob/master/StataDCTutils.pdf?raw=true)
