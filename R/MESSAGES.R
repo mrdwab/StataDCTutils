@@ -11,11 +11,14 @@
 #'@examples
 #'
 #'## Read an example dictionary file
-#'data(sipp84fp)
+#'data(sampleDctData)
 #'## Write the data to a dictionary file
+#'currentdir <- getwd()
+#'setwd(tempdir())
 #'writeLines(sipp84fp_dct, "sipp84fp.dct")
 #'sipp84_R_dict <- dct.parser("sipp84fp.dct")
 #'MESSAGES(sipp84_R_dict)
+#'#'setwd(currentdir)
 #'
 MESSAGES <- function(x) {
   cat(attr(x, "MESSAGE"), fill = 80)

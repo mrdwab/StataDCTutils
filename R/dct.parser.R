@@ -15,8 +15,8 @@
 #'The expected workflow might include (1) parsing the dictionary file using
 #'\code{\link{dct.parser}}, (2) converting the fixed width data file to a csv
 #'file using \code{csvkit} after generating a csvkit \emph{schema} file using
-#'\code{\link{csvkitSchema}}, (3) reading in the file using your preferred
-#'method (for example, \code{\link{sqldf}}, \code{\link{read.csv}}, or another
+#'\code{\link{csvkit.schema}}, (3) reading in the file using your preferred
+#'method (for example, \code{\link[pkg:sqldf]{sqldf}}, \code{\link{read.csv}}, or another
 #'appropriate method), (4) re-assigning some of the metadata extracted from the
 #'dictionary file to your newly imported dataset.
 #'
@@ -42,7 +42,7 @@
 #'@examples
 #'
 #'## Read an example dictionary file
-#'data(sipp84fp)
+#'data(sampleDctData)
 #'## Write the data to a dictionary file
 #'currentdir <- getwd()
 #'setwd(tempdir())
