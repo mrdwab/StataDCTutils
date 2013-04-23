@@ -6,4 +6,5 @@ Date: 2013-01-16
 Author: Ananda Mahto
 Maintainer: Ananda Mahto <mrdwab@gmail.com>
 Description: Some datasets are distributed as a combination of a fixed width data file, a Stata `.dct` dictionary file, and a Stata `.do` file. The dictionary usually includes details like the variable name, variable label, variable start and end position in the fixed width data file, and the storage type of the variable. The functions and utilities in this package parse such dictionary files and attempt to convert the data into more usable formats for R users.
+Depends: R (>= 2.10)
 License: GPL-2
